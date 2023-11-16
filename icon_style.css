@@ -1,0 +1,31 @@
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+.icon-list {
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.icon img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px; 
+}
+
+
+.icon span {
+    font-size: 16px; 
+    color: #333; 
+}

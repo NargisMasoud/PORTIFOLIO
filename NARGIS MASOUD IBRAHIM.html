@@ -1,0 +1,185 @@
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="header .css">
+    <link rel="stylesheet" href="icon_style.css">
+
+    <meta charseb="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M NARGIS MASOUD AND THIS IS MY PORTFOLIO</title>
+    <link rel="stylesheet" href="table.css">
+
+
+
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: light rgb(0, 0, 0);
+            color: dark charcoal;
+        }
+
+        header {
+            background: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 123, 0), rgb(0, 0,0));
+            color: rgb(0, 0, 0);
+            padding: 1em;
+            text-align: center;
+        }
+
+         header {
+            height: 120px;
+            position: relative;
+        }
+
+        
+        .header-section {
+            background-image: url('Downloads/cover.png');
+            
+            height: 300px;
+            background-size: cover;
+            
+        }
+
+        
+        
+        
+
+        section {
+            max-width: 800px;
+            margin: 2em auto;
+            padding: 2em;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: rgb(0, 0, 0);
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            font-size: 12;
+            background-color: rgb(255, 98, 0);
+            color: #000000;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+
+
+        }
+        .black-link {
+    color: black; 
+
+    text-decoration: none;
+    font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>NARGIS MASOUD IBRAHIM</h1>
+        <p>IT TECHNICIAN</p>   
+        <header class="header-section" style="background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Ffacebook-cover&psig=AOvVaw2AIPDdeJ2OGrfP2ZccZAgM&ust=1700236150716000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLCsgrDvyIIDFQAAAAAdAAAAABAE'); background-size: cover; height: 400px; color: #fff;"></header>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+
+
+            As an IT technician, you're the digital troubleshooter, the tech wizard who keeps systems running smoothly. You're the one who dives into the maze of cables, untangles complex issues, and breathes life back into malfunctioning devices. You're a problem-solver, fluent in the language of technology, adept at diagnosing and fixing issues, and ensuring that everyone else's digital world runs seamlessly. You're a crucial bridge between technology and its users, translating complex jargon into understandable solutions. You're the hero behind the scenes, ensuring that the digital infrastructure stays strong.
+        </p>
+    </section>
+
+    <section>
+        <table id="myTable">
+            <tr>
+                <th>Number</th>
+                <th>Place and Activity</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+                <td>Dar es salaam Institute Of Technology</td>
+                <td>2021 - 2024 (When God Wishes😂)</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Jangwani Secondary School.</td>
+                <td>2017 - 2020</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Kawe Mabatini Primary School</td>
+                <td>2010 - 2016</td>
+            </tr>
+           
+        </table>
+    </section>
+
+
+
+    <section>
+        <h2>Contact</h2>
+        
+            <div class="icon-list">
+                <div class="icon">
+                    <img src="instagram_logo.png" alt="Instagram.com">
+                    <span>Follow me On Instagram</span>
+                </div>
+                <div class="icon">
+                    <img src="x_logo.png" alt="X.com">
+                    <span>Follow me on X</span>
+                </div>
+                <div class="icon">
+                    <img src="github_logo.png" alt="Github.com">
+                    <span>Follow me on Github</span>
+                </div>
+                <div class="icon">
+                    <img src="whatsapp_logo.jpeg" alt="Reach me in whatsapp">
+                    <span>Send message or Call on Whatsapp</span>
+                </div>
+                <div class="icon">
+                    <img src="telephone_logo.png" alt="Hit me up">
+                    <span>Hit me up</span>
+                </div>
+                <div class="icon">
+                    <img src="sms_logo.png" alt="Reach me on norma Text">
+                    <span>Reach me on normal text</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        This is the small of mine but I'm still trying to be better than now, support me If you are interested in my Job and project.
+    </footer>
+
+
+    <script>
+
+        const tableRows = document.querySelectorAll('#myTable tr');
+
+        tableRows.forEach(row => {
+            row.addEventListener('mouseover', function() {
+                this.classList.add('highlight-row');
+            });
+
+            row.addEventListener('mouseout', function() {
+                this.classList.remove('highlight-row');
+            });
+        });
+    </script>
+     
+</body>
+</html>
